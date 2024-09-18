@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions</title>
+    <style>
+        .container {
+            position: relative;
+            width: 100%;
+            max-width: 1300px;
+            margin: auto;
+            padding-left: 20px;
+            padding-right: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+            padding-top: 20px;
+        }
+
+        .font {
+            width: 410px;
+            position: absolute;
+            bottom: 5px;
+        }
+
+        .font, h1, p{
+            font-size: 24px;
+            color: white;
+        }
+
+        .font-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: end;
+        }
+
+        .fontright {
+            margin-bottom: 20px;
+        }
+
+        button {
+            all: unset;
+            border-radius: 20px;
+            padding: 10px 20px;
+            color: black;
+            background-color: white;
+        }
+
+        
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="pendaki.jpg.webp" alt="">
+        <div class="font">
+            <h1>7 Days Trip</h1>
+            <h2>Explore Bromo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde magnam suscipit consectetur fugiat repellendus, voluptate minus pariatur laudantium!</p>
+            <div class="font-bottom">
+                <div class="fontleft">
+                    <p>From</p>
+                    <p>$450/pack</p>
+                </div>
+                <div class="fontright">
+                    <button>Learn More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
